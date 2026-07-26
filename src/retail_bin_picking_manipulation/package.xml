@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+  <name>retail_bin_picking_manipulation</name>
+  <version>0.0.0</version>
+
+  <description>
+    Manipulation, MoveIt, and Isaac Sim integration for retail bin picking.
+  </description>
+
+  <maintainer email="ericzmy@example.com">Eric Zhang</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>moveit</depend>
+  <depend>moveit_configs_utils</depend>
+  <depend>moveit_resources_panda_description</depend>
+  <depend>moveit_resources_panda_moveit_config</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  <depend>moveit_simple_controller_manager</depend>
+  <depend>visualization_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>control_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
